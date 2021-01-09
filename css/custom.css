@@ -1,17 +1,15 @@
-@font-face {
-    font-family: 'vw_text_officebold';
-    src: url('/Nivus-I-HTML/css/fonts/VWTextOffice-Bold.ttf');
-    
+/*********************************************************************************
 
-    font-family: 'VWTextOffice-Regular';
-    src: url('/Nivus-I-HTML/css/fonts/VWTextOffice-Regular.ttf');
-    
-}
-.text{
-    font-family: 'VWTextOffice-Regular';
-}
+	Template Name: Template Full Name Here
+	Description: A perfect template to build beautiful and unique medical websites. It comes with nice and clean design.
+	Version: 1.0
 
+	Note: This is custom css.
 
-.themcolor h{
-    font-family:'vw_text_officebold';
+**********************************************************************************/
+@font-face{
+	font-family: "rexona";
+	src: url(/fonts/RexonaCircularFF-Book.otf);
+	font-weight: normal;
+	font-style: normal;
 }
