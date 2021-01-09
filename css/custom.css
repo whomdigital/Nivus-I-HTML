@@ -8,8 +8,12 @@
 
 **********************************************************************************/
 @font-face{
-	font-family: "rexona";
-	src: url(/fonts/RexonaCircularFF-Book.otf);
+	font-family: "vw-regular";
+	src: url(/fonts/VWTextOffice-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
+}
+
+.font-vw {
+	font-family: vw-regular;
 }
