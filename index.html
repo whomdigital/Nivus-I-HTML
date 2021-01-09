@@ -28,6 +28,7 @@
 
     <!-- CSS -->
     <link rel='stylesheet' href='css/global.css'>
+    <link rel="stylesheet" href="css/custom.css">
     <link rel='stylesheet' href='content/rallydriver/css/structure.css'>
     <link rel='stylesheet' href='content/rallydriver/css/rallydriver.css'>
     <link rel='stylesheet' href='content/rallydriver/css/custom.css'>
@@ -49,14 +50,17 @@
                         <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.8">
                             <rs-slides>
                                 <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
-                                    <img src="content/rallydriver/images/rally-slider-bg.jpg" data-parallax="2" class="rev-slidebg" data-no-retina>
+                                    <img src="content/rallydriver/images/nivus-banner.png" data-parallax="2" class="rev-slidebg" data-no-retina>
                                     <rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-rsp_ch="on" data-xy="x:c;xo:237px,237px,-10px,-10px;y:m;yo:-130px,-130px,-256px,-256px;" data-text="w:normal;s:80,80,92,92;l:65,65,74,74;fw:700;" data-dim="w:574px,574px,662px,662px;" data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;"
                                         data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;e:Power4.easeInOut;sp:1500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index:5;font-family:Poppins;">
-                                        <span style="color:#000">WORLD</span> RALLY
-                                        <br> CHAMPION
-                                        <br> OF <span style="color:#000">2020</span>
+                                        
+                                        <!--aca esta aplicada la font family, pero no puedo alinearlo a la izquierda-->
+                                        <span  style="color:#000" class="text" >WORLD</span> <span class="text">RALLY</span>
+                                        <br> <span class="text">CHAMPION</span>
+                                        <br> <span class="text">OF</span> <span class="text"style="color:#000">2020</span>
+
                                     </rs-layer>
-                                    <rs-layer id="slider-1-slide-1-layer-1" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:319px,319px,71px,71px;y:m;yo:-61px,-61px,-177px,-177px;" data-text="w:normal;s:20,20,12,12;l:0,0,15,15;" data-dim="w:119px,119px,123px,123px;h:119px,119px,123px,123px;"
+                                  <!--  <rs-layer id="slider-1-slide-1-layer-1" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:319px,319px,71px,71px;y:m;yo:-61px,-61px,-177px,-177px;" data-text="w:normal;s:20,20,12,12;l:0,0,15,15;" data-dim="w:119px,119px,123px,123px;h:119px,119px,123px,123px;"
                                         data-frame_1="e:Power4.easeInOut;sp:1500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index:6;"><img src="content/rallydriver/images/rally-slider-trophy.png" width="205" height="205" data-no-retina>
                                     </rs-layer>
                                     <rs-layer id="slider-1-slide-1-layer-2" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:-290px,-290px,-181px,-181px;y:b;yo:70px,70px,43px,43px;" data-text="w:normal;s:20,20,12,12;l:0,0,15,15;" data-dim="w:89px,89px,55px,55px;h:67px,67px,41px,41px;"
@@ -72,8 +76,8 @@
                                         data-frame_1="e:Power4.easeInOut;st:750;sp:1200;sR:750;" data-frame_999="o:0;st:w;sR:7050;" style="z-index:10;"><img src="content/rallydriver/images/rally-slider-sponsor4.png" width="87" height="66" data-no-retina>
                                     </rs-layer>
                                 </rs-slide>
-                            </rs-slides>
-                            <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+                            </rs-slides>-->
+                            <!--<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress> -->
                         </rs-module>
 
                     </rs-module-wrap>
@@ -96,22 +100,24 @@
                                                     nisi ut aliquip ex.</h3>
                                             </div>
                                         </div>
-                                        <div class="column mcb-column mcb-item-w6vppxxi1 two-fifth column_image">
-                                            <div class="image_frame image_item no_link scale-with-grid no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="content/rallydriver/images/rally-home-signature.png">
-                                                </div>
+                                        <div class="column_attr clearfix">
+                                                <h5 class="themecolor" >DRIVER AND TEAM</h5>
+                                                <hr class="no_line" style="margin:0 auto 5px">
+                                                <h3>Lorem <span class="themecolor">mollit anim</span> or sit amet, consectetur ut labore et dolore magna. <span style="color:#151413;">Utenim ad minim</span> veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex.</h3>
                                             </div>
                                         </div>
-                                        <div class="column mcb-column mcb-item-jituq4izu one-second column_column">
+                                        
+                                        <!--<div class="column mcb-column mcb-item-jituq4izu one-second column_column">
                                             <div class="column_attr clearfix" style="padding:18px 0 0 0 ;">
                                                 <p class="big">
                                                     <a href="content/rallydriver/about.html"><u>Read more</u></a>
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
-                                <div class="wrap mcb-wrap mcb-wrap-si12kfvbs three-fifth valign-middle clearfix">
+                            <!--<div class="wrap mcb-wrap mcb-wrap-si12kfvbs three-fifth valign-middle clearfix">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-jkgopd4ti one column_image">
                                             <div class="image_frame image_item no_link scale-with-grid no_border">
@@ -120,7 +126,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                         <div class="section mcb-section mcb-section-yi9n8ar9v no-margin-h no-margin-v full-width" style="padding-top:20px;padding-bottom:75px">
@@ -149,10 +155,15 @@
                                 <div class="wrap mcb-wrap mcb-wrap-f8tby5pzc one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-7xx95fuwr one column_image">
-                                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                          
+                                          
+                                            <!--  <div class="image_frame image_item no_link scale-with-grid no_border">
                                                 <div class="image_wrapper"><img class="scale-with-grid" src="content/rallydriver/images/rally-car_small.png">
                                                 </div>
                                             </div>
+                                        -->
+
+
                                         </div>
                                         <div class="column mcb-column mcb-item-rtdbmhb7l one column_divider">
                                             <hr class="no_line" style="margin:0 auto 40px">

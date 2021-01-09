@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'vw_text_officebold';
+    src: url('/Nivus-I-HTML/css/fonts/VWTextOffice-Bold.ttf');
+    
+
+    font-family: 'VWTextOffice-Regular';
+    src: url('/Nivus-I-HTML/css/fonts/VWTextOffice-Regular.ttf');
+    
+}
+.text{
+    font-family: 'VWTextOffice-Regular';
+}
+
+
+h3{
+    font-family:'vw_text_officebold';
+}
