@@ -3719,6 +3719,10 @@ h6 {
 #Error_404 .error_pic i,.button-love a.mfn-love,.fancy_heading_arrows .icon-left-dir,.fancy_heading_arrows .icon-right-dir,.fancy_heading_icon .icon_top,.fancy_heading_line .title,.format-link .post-title .icon-link,.opening_hours .opening_hours_wrapper li span,.pager-single a:hover,.pager-single > span,.shop_slider .shop_slider_ul li .item_wrapper .price,.themecolor,.widget_archive ul,.widget_meta ul,.widget_mfn_recent_comments ul li:after,.widget_nav_menu ul,.widget_pages ul,.widget_price_filter .price_label .from,.widget_price_filter .price_label .to,.widget_recent_comments ul li:after,.widget_rss ul,.woocommerce .product div.entry-summary .price,.woocommerce .star-rating span,.woocommerce ul.product_list_widget li .quantity .amount,.woocommerce ul.products li.product .price,.woocommerce-page ul.products li.product .price {
     color: #2991d6;
 }
+.themecolor{
+    font-family:'vw_text_officebold';
+}
+
 
 #Filters .filters_wrapper ul li a:hover,#Top_bar a#header_cart span,#comments .commentlist > li .reply a.comment-reply-link,.Recent_posts ul li .desc:after,.Recent_posts ul li .photo .c,.fixed-nav .arrow,.offer_thumb .slider_pagination a.selected:after,.offer_thumb .slider_pagination a:before,.pager .pages a.active,.pager .pages a:hover,.pager .pages span.page-numbers.current,.pager-single span:after,.slider_pagination a.selected,.slider_pagination a.selected:after,.testimonials_slider .slider_images,.testimonials_slider .slider_images a:after,.testimonials_slider .slider_images:before,.themebg,.tp-bullets.simplebullets.round .bullet.selected,.tp-bullets.simplebullets.round .bullet.selected:after,.tp-bullets.tp-thumbs .bullet.selected:after,.tp-leftarrow.default,.tp-rightarrow.default,.widget_categories ul,.widget_mfn_menu ul li a:hover,.widget_mfn_menu ul li.current_page_item a,.widget_product_categories ul,.widget_recent_entries ul li:after,div.jp-interface {
     background-color: #2991d6;
