@@ -27,5 +27,23 @@ p{
 p.bk_pra{
 	font-family: "vw-regular";
 }
+.card-body-c{
+	font-size: 15 px;
+	font-family: "vw-regular";
+}
+.regla{
+	border: red dotted;
+	width: 100%;
+	font-family: "vw-regular";
+	font-size: 15px;
+	text-align: left;
+	
+
+}
+.card{
+	font-size: 15 px;
+	font-family: "vw-regular";
+}
+
 
 
