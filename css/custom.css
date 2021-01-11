@@ -17,6 +17,13 @@
 .font-vw {
 	font-family: "vw-regular";
 }
+.font-vw1{
+	text-align: center;
+	font-family: "vw-regular";
+}
+div.flexale-image{
+	align-items: center;
+}
 .bk_pra {
 	font-family: "vw-regular";
 }
@@ -32,7 +39,6 @@ p.bk_pra{
 	font-family: "vw-regular";
 }
 .regla{
-	border: red dotted;
 	width: 100%;
 	font-family: "vw-regular";
 	font-size: 15px;
@@ -43,6 +49,13 @@ p.bk_pra{
 .card{
 	font-size: 15 px;
 	font-family: "vw-regular";
+}
+
+@media only screen and (min-width: 992px){
+	.thumb{
+		margin-top: 0%;
+		padding-top: 0%;
+	}
 }
 
 
