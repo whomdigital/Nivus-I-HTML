@@ -53,9 +53,21 @@ p.bk_pra{
 
 @media only screen and (min-width: 992px){
 	.thumb{
-		margin-top: 0%;
-		padding-top: 0%;
+		text-align: center;
 	}
+	.container{
+		text-align: center;
+		align-items: center;
+	}
+	.flexale-image{
+		text-align: center;
+	}
+	#tabs{
+		align-items: center;
+		padding-top: 0%;
+		margin-top: 0%;
+	}
+	
 }
 
 
