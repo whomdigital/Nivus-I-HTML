@@ -70,8 +70,37 @@ p.bk_pra{
 	
 }
 
+@media only screen and (min-width: 400px){
+	
+	#img-innovador{
+		padding-left: 14%;
+		border-radius: 5px;
+	}
+	
+}
 
 
+@media only screen and (min-width: 400px){
+	
+	#acordeon1{
+		padding-top: 5%;
+	}
+	
+}
 
+@media only screen and (min-width: 400px){
+	
+	#seccion1{
+		padding-top: 5%;
+	}
+	
+}
 
+@media only screen and (min-width: 400px){
+	
+	#alcance{
+		padding-right: 11%;
+	}
+	
+}
 
