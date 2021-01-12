@@ -71,4 +71,15 @@ p.bk_pra{
 }
 
 
+@media only screen and (min-width: 400px){
+	
+	#hero{
+		position: absolute;
+		top: 50%;
+	}
+	
+}
+
+
+
 
