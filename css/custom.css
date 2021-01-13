@@ -104,3 +104,18 @@ p.bk_pra{
 	
 }
 
+@media only screen and (max-width: 400px){
+	
+	#fotoFooter{
+		width: 50%;
+	}
+	
+}
+
+@media only screen and (min-width: 400px){
+	
+	#fotoFooter{
+		width: 25%;
+	}
+	
+}
